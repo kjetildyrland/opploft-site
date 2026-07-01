@@ -62,15 +62,11 @@ export function Header() {
             <SheetTrigger asChild>
               <Button
                 variant="outline"
-                size="icon"
+                size="nav"
                 aria-label="Åpne meny"
-                className="size-11"
+                className="h-10 px-4 text-sm font-medium"
               >
-                <span className="flex flex-col gap-[5px]" aria-hidden="true">
-                  <span className="block h-[2px] w-5 bg-foreground" />
-                  <span className="block h-[2px] w-5 bg-foreground" />
-                  <span className="block h-[2px] w-5 bg-foreground" />
-                </span>
+                Meny
               </Button>
             </SheetTrigger>
             <SheetContent

@@ -36,7 +36,9 @@ export function Suverenitet() {
             <h3 className="mb-[0.6rem] text-[1.3rem] font-semibold">
               {point.title}
             </h3>
-            <p className="m-0 max-w-[42ch]">{point.body}</p>
+            <p className="m-0 max-w-[42ch] text-base leading-relaxed">
+              {point.body}
+            </p>
           </Card>
         ))}
       </div>

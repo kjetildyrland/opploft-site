@@ -33,7 +33,9 @@ export function Hvem() {
             <p className="mb-4 text-[0.8125rem] font-medium uppercase tracking-[0.12em] text-primary">
               {audience.place}
             </p>
-            <p className="m-0 max-w-[42ch]">{audience.body}</p>
+            <p className="m-0 max-w-[42ch] text-base leading-relaxed">
+              {audience.body}
+            </p>
           </Card>
         ))}
       </div>

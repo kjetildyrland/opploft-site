@@ -35,7 +35,7 @@ export function Tjenester() {
             <h3 className="mb-[0.9rem] text-[1.4rem] font-semibold">
               {service.title}
             </h3>
-            <p className="m-0">{service.body}</p>
+            <p className="m-0 text-base leading-relaxed">{service.body}</p>
             <p className="mt-auto pt-6 text-[0.95rem] font-medium text-primary">
               {service.price}
             </p>
