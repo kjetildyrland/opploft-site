@@ -3,13 +3,13 @@ import { Section } from "@/components/site/section";
 
 const SERVICES = [
   {
-    title: "Tidstyvjakt",
+    title: "Flaskehalsanalyse",
     body: "Vi kartlegger hvor tiden går på ti virkedager: et skreddersydd spørreskjema bygget på offentlig informasjon om bransjen deres, og observerte arbeidsøkter der vi tar tiden på ekte oppgaver. Dere sitter igjen med en rangert liste over flaskehalser med kroneestimat.",
     price: "Fast pris. Be om tilbud.",
   },
   {
     title: "KI-sprint",
-    body: "Vi bygger og setter én løsning i produksjon på den største tidstyven, i verktøyene og på kontoene dere allerede har. Med opplæring, dokumentasjon og et testsett som beviser at løsningen virker.",
+    body: "Vi bygger og setter én løsning i produksjon på den største flaskehalsen, i verktøyene og på kontoene dere allerede har. Med opplæring, dokumentasjon og et testsett som beviser at løsningen virker.",
     price: "Fast pris per sprint. Be om tilbud.",
   },
   {
@@ -26,11 +26,11 @@ export function Tjenester() {
       <h2 id="tjenester-title" className="section-title">
         Tre trinn, fast pris
       </h2>
-      <div className="grid grid-cols-1 border-t border-l border-border md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
         {SERVICES.map((service) => (
           <Card
             key={service.title}
-            className="border-r border-b border-border p-[clamp(1.5rem,3vw,2.25rem)]"
+            className="p-[clamp(1.75rem,3.2vw,2.5rem)]"
           >
             <h3 className="mb-[0.9rem] text-[1.4rem] font-semibold">
               {service.title}

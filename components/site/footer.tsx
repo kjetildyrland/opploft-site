@@ -5,7 +5,7 @@ export function Footer() {
     <footer className="border-t border-border py-[clamp(2.5rem,5vw,3.5rem)]">
       <Container>
         <p className="mb-2 text-[0.95rem]">
-          Oppløft AS (under stiftelse) · Bergen &amp; Oslo ·{" "}
+          Oppløft AS (under stiftelse) · Bergen &amp; Oslo · hele Norge som arbeidsfelt ·{" "}
           <a href="mailto:kontakt@opploft.no" className="text-primary">
             kontakt@opploft.no
           </a>{" "}

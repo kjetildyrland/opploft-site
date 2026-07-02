@@ -41,18 +41,21 @@
 }
 
 :root {
-  /* Brand tokens — flat, one accent green, hairline borders. */
-  --paper: #f4f3ee;
-  --ink: #17191a;
+  /* Brand tokens — calm, one accent green, soft sage rhythm, hairline borders. */
+  --paper: #f7f6f1;
+  --ink: #232824; /* body text */
+  --heading: #1c211d; /* headings, slightly deeper than body */
   --accent-green: #0e4b3b;
-  --accent-green-dark: #093528;
-  --alt: #ecebe4;
-  --hairline: rgba(23, 25, 26, 0.16);
+  --accent-green-dark: #113f34; /* softer primary hover */
+  --alt: #ebeee7; /* soft sage alternate section background */
+  --stat-panel: #e7ede6; /* pale green tint behind the 77 % figure */
+  --hairline: rgba(35, 40, 36, 0.12);
+  --card-shadow: 0 1px 2px rgba(35, 40, 36, 0.04); /* whisper lift on cards */
 
   --background: var(--paper);
   --foreground: var(--ink);
 
-  --card: transparent;
+  --card: var(--paper);
   --card-foreground: var(--ink);
   --popover: var(--paper);
   --popover-foreground: var(--ink);
@@ -64,7 +67,7 @@
   --secondary: var(--alt);
   --secondary-foreground: var(--ink);
   --muted: var(--alt);
-  --muted-foreground: rgba(23, 25, 26, 0.7);
+  --muted-foreground: rgba(35, 40, 36, 0.7);
   --accent: var(--alt);
   --accent-foreground: var(--ink);
 
@@ -73,11 +76,11 @@
   --input: var(--hairline);
   --ring: var(--accent-green);
 
-  --radius: 0.25rem;
+  --radius: 0.5rem; /* buttons 8px */
 
   --maxw: 1060px;
   --gutter: clamp(1.25rem, 5vw, 2.5rem);
-  --pad-y: clamp(5rem, 10vw, 9rem);
+  --pad-y: clamp(6rem, 11vw, 10rem);
 
   /* Fluid type scales that use calc() live here so JSX can stay declarative. */
   --fs-body: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);
@@ -107,15 +110,16 @@
   body {
     @apply bg-background text-foreground antialiased;
     font-size: var(--fs-body);
-    line-height: 1.65;
+    line-height: 1.7;
     font-weight: 400;
     text-rendering: optimizeLegibility;
   }
   h1,
   h2,
   h3 {
+    color: var(--heading);
     font-weight: 600;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
     line-height: 1.08;
     text-wrap: balance;
   }
@@ -152,8 +156,8 @@
     margin: 0;
     font-size: clamp(2.6rem, 6vw, 4.6rem);
     font-weight: 600;
-    letter-spacing: -0.02em;
-    line-height: 1.03;
+    letter-spacing: -0.015em;
+    line-height: 1.06;
   }
 
   .section-title {
@@ -172,7 +176,7 @@
     line-height: 1;
     letter-spacing: -0.03em;
     color: transparent;
-    -webkit-text-stroke: 1.5px var(--accent-green);
+    -webkit-text-stroke: 1.25px rgba(14, 75, 59, 0.55);
   }
 
   .stat-figure {

@@ -4,12 +4,12 @@ import { Section } from "@/components/site/section";
 const AUDIENCES = [
   {
     title: "Regnskap, revisjon og advokat",
-    place: "Oslo og resten av landet",
+    place: "I hele landet",
     body: "Bilagsflyt, årsoppgjør, førsteutkast av standarddokumenter og frist-innboksen som aldri blir tom.",
   },
   {
     title: "Havnæringen",
-    place: "Bergen",
+    place: "Langs hele kysten",
     body: "Myndighetsrapportering, internkontroll-dokumentasjon, anbud og HSEQ-spørsmål for oppdrett, rederi og leverandører.",
   },
 ];
@@ -21,11 +21,11 @@ export function Hvem() {
       <h2 id="hvem-title" className="section-title">
         To miljøer, samme problem
       </h2>
-      <div className="grid grid-cols-1 border-t border-l border-border md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         {AUDIENCES.map((audience) => (
           <Card
             key={audience.title}
-            className="border-r border-b border-border p-[clamp(1.75rem,3.5vw,2.75rem)]"
+            className="p-[clamp(2rem,3.8vw,3rem)]"
           >
             <h3 className="mb-[0.4rem] text-[1.4rem] font-semibold">
               {audience.title}

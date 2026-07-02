@@ -4,7 +4,7 @@ export function HvorforNaa() {
   return (
     <Section aria-labelledby="why-title">
       <p className="overline">Hvorfor nå</p>
-      <figure className="m-0 mb-10 grid grid-cols-1 items-baseline gap-[clamp(1.5rem,4vw,3rem)] sm:grid-cols-[auto_1fr]">
+      <figure className="m-0 mb-10 grid grid-cols-1 items-baseline gap-[clamp(1.5rem,4vw,3rem)] rounded-[12px] bg-[var(--stat-panel)] p-[clamp(1.75rem,4vw,3rem)] sm:grid-cols-[auto_1fr]">
         <p id="why-title" className="stat-figure">
           77 %
         </p>

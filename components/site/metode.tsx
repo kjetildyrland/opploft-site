@@ -3,13 +3,13 @@ import { Section } from "@/components/site/section";
 const STEPS = [
   {
     num: "01",
-    title: "Tidstyvjakt",
+    title: "Flaskehalsanalyse",
     body: "På ti virkedager kartlegger vi hvor tiden faktisk går: et skreddersydd spørreskjema bygget på offentlig informasjon om deres bransje, og observerte arbeidsøkter der vi tar tiden på ekte oppgaver. Dere får en rangert liste over flaskehalser med kroneestimat — ikke en presentasjon, men en arbeidsliste.",
   },
   {
     num: "02",
     title: "KI-sprint",
-    body: "Vi bygger løsningen på den største tidstyven, i deres egne verktøy og på deres egne kontoer. Leveransen inkluderer opplæring, dokumentasjon og et testsett som beviser at løsningen virker — før vi går videre til neste.",
+    body: "Vi bygger løsningen på den største flaskehalsen, i deres egne verktøy og på deres egne kontoer. Leveransen inkluderer opplæring, dokumentasjon og et testsett som beviser at løsningen virker — før vi går videre til neste.",
   },
   {
     num: "03",
@@ -23,7 +23,7 @@ export function Metode() {
     <Section id="metode" aria-labelledby="metode-title">
       <p className="overline">Slik jobber vi</p>
       <h2 id="metode-title" className="section-title">
-        Fra tidstyv til løsning dere eier
+        Fra flaskehals til løsning dere eier
       </h2>
       <ol className="m-0 list-none p-0">
         {STEPS.map((step) => (

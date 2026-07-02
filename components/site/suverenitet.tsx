@@ -27,11 +27,11 @@ export function Suverenitet() {
       <h2 id="suverenitet-title" className="section-title">
         Dataene deres blir hos dere
       </h2>
-      <div className="grid grid-cols-1 border-t border-l border-border sm:grid-cols-2">
+      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
         {POINTS.map((point) => (
           <Card
             key={point.title}
-            className="border-r border-b border-border p-[clamp(1.5rem,3.2vw,2.5rem)]"
+            className="p-[clamp(1.75rem,3.4vw,2.75rem)]"
           >
             <h3 className="mb-[0.6rem] text-[1.3rem] font-semibold">
               {point.title}

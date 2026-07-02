@@ -9,15 +9,15 @@ export function Hero() {
     <section aria-labelledby="hero-title">
       <Container className="py-[clamp(4rem,9vw,7.5rem)]">
         <p className="overline">
-          KI-rådgivning for norske virksomheter · Bergen &amp; Oslo
+          KI-rådgivning for norske virksomheter · i hele landet
         </p>
         <h1 id="hero-title" className="display-title max-w-[16ch]">
-          Vi finner tidstyvene.
+          Vi finner flaskehalsene.
           <br />
           KI fjerner dem.
         </h1>
         <svg
-          className="mt-6 mb-8 block"
+          className="mt-6 mb-8 block opacity-75"
           width="340"
           height="26"
           viewBox="0 0 340 26"

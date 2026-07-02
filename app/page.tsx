@@ -1,6 +1,7 @@
 import { Header } from "@/components/site/header";
 import { Hero } from "@/components/site/hero";
 import { Metode } from "@/components/site/metode";
+import { Prinsipp } from "@/components/site/prinsipp";
 import { Suverenitet } from "@/components/site/suverenitet";
 import { Tjenester } from "@/components/site/tjenester";
 import { Hvem } from "@/components/site/hvem";
@@ -19,6 +20,7 @@ export default function Home() {
         <span id="top" />
         <Hero />
         <Metode />
+        <Prinsipp />
         <Suverenitet />
         <Tjenester />
         <Hvem />

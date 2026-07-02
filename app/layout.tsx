@@ -10,9 +10,9 @@ const familjenGrotesk = Familjen_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Oppløft — Vi finner tidstyvene. KI fjerner dem.",
+  title: "Oppløft — Vi finner flaskehalsene. KI fjerner dem.",
   description:
-    "Oppløft hjelper norske virksomheter å finne tidstyvene, løse dem med KI i verktøyene dere allerede har, og eie løsningen selv. Bergen og Oslo.",
+    "Oppløft hjelper norske virksomheter å finne flaskehalsene, løse dem med KI i verktøyene dere allerede har, og eie løsningen selv. For virksomheter i hele Norge.",
 };
 
 export default function RootLayout({
