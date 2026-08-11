@@ -14,7 +14,7 @@ export function Prinsipp() {
           Koden, kontoene, domenene og dokumentasjonen står i deres navn fra dag
           én. Vi bygger på vanlige, godt kjente verktøy framfor våre egne
           rammeverk, slik at en hvilken som helst utvikler kan ta over etter
-          oss. Ingen innlåsing, ingen skjulte avhengigheter — dere skal kunne
+          oss. Ingen innlåsing og ingen skjulte avhengigheter. Dere skal kunne
           bytte leverandør uten å begynne på nytt.
         </p>
       </Container>

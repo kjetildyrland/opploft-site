@@ -33,7 +33,7 @@ export function Hero() {
         </svg>
         <p className="m-0 mb-9 max-w-[60ch] text-[length:var(--fs-lead-hero)] leading-[1.55]">
           Oppløft er et lite utviklingsselskap i Bergen og Oslo. Vi tar oppdrag
-          fra første skisse til ferdig løsning i drift — nettsider, mobilapper,
+          fra første skisse til ferdig løsning i drift: nettsider, mobilapper,
           interne systemer, og KI der det faktisk gir gevinst. To utviklere,
           fast pris, og kode dere eier selv.
         </p>

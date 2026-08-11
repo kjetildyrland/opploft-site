@@ -4,7 +4,7 @@ import { Section } from "@/components/site/section";
 const SERVICES = [
   {
     title: "Nettsider og apper",
-    body: "Nettsider, nettbutikker, iOS- og Android-apper og interne systemer. Vi tar hele veien fra skisse til publisering — på deres eget domene, i App Store eller i Google Play.",
+    body: "Nettsider, nettbutikker, iOS- og Android-apper og interne systemer. Vi tar hele veien fra skisse til publisering, enten det er på deres eget domene, på App Store eller i Google Play.",
     price: "Fast pris per prosjekt. Be om tilbud.",
   },
   {
@@ -14,7 +14,7 @@ const SERVICES = [
   },
   {
     title: "Drift og videreutvikling",
-    body: "Når løsningen er i produksjon holder vi den i gang: oppdateringer, overvåking, nye funksjoner — og en fast kontaktperson som kjenner koden fra innsiden.",
+    body: "Når løsningen er i produksjon holder vi den i gang: oppdateringer, overvåking, nye funksjoner, og en fast kontaktperson som kjenner koden fra innsiden.",
     price: "Fast månedspris. Be om tilbud.",
   },
 ];

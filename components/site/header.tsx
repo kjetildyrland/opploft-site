@@ -29,7 +29,7 @@ export function Header() {
       >
         <a
           href="#top"
-          aria-label="Oppløft — til toppen"
+          aria-label="Oppløft, til toppen"
           className="text-[1.3rem] font-bold tracking-[-0.02em] text-foreground no-underline"
         >
           Oppløft

@@ -1,24 +1,30 @@
+import Image from "next/image";
+
 import { Card } from "@/components/ui/card";
 import { Section } from "@/components/site/section";
+import kjetilPhoto from "@/public/team/kjetil-dyrland.jpg";
+import satheshPhoto from "@/public/team/satheshkumar-kaliyugarasan.jpg";
 
 const PEOPLE = [
   {
     name: "Kjetil Dyrland",
     role: "Utvikler og data engineer",
     place: "Oslo",
-    body: "M.Sc. i programvareutvikling og maskinlæring fra HVL og UiB, og Databricks-sertifisert data engineer. Har bygget datainfrastruktur og ML-pipelines i Databricks på Azure for Lerøy Seafood, og jobbet som konsulent i Bouvet på blant annet Equinor-prosjekter. Medforfatter på to fagartikler om evaluering av maskinlæringsmodeller — og utvikler bak fem apper i App Store.",
+    photo: kjetilPhoto,
+    body: "M.Sc. i programvareutvikling og maskinlæring fra HVL og UiB, og Databricks-sertifisert data engineer. Har bygget datainfrastruktur og ML-pipelines i Databricks på Azure for Lerøy Seafood, og jobbet som konsulent i Bouvet på blant annet Equinor-prosjekter. Medforfatter på to fagartikler om evaluering av maskinlæringsmodeller, og utvikler bak fem apper på App Store.",
     link: { href: "https://kjetildyrland.github.io", label: "kjetildyrland.github.io" },
   },
   {
     name: "Satheshkumar Kaliyugarasan",
     role: "Data scientist og KI-utvikler",
     place: "Bergen",
+    photo: satheshPhoto,
     body: "Ph.d. i informatikk fra HVL på dyp læring i medisinsk bildeanalyse, og postdoktor ved Mohn Medical Imaging and Visualization Centre på Haukeland. Har bygget MLOps-infrastruktur og satt prediksjonsmodeller i produksjon som data scientist i Lerøy Seafood. Står bak fastMONAI, et åpent bibliotek for medisinsk bildeanalyse.",
     link: { href: "https://skaliy.no", label: "skaliy.no" },
   },
 ];
 
-/** Egne apper vi har bygget og gitt ut — leveransebevis, ikke kundereferanser. */
+/** Egne apper vi har bygget og gitt ut. Leveransebevis, ikke kundereferanser. */
 const APPS = [
   {
     name: "Hyttefred",
@@ -56,11 +62,19 @@ export function Hvem() {
       </h2>
       <p className="mb-10 max-w-[58ch] text-[length:var(--fs-lead-strong)]">
         Ingen selgere, ingen prosjektledd. Dere snakker med de samme to som
-        skriver koden — fra første samtale til løsningen er i drift.
+        skriver koden, fra første samtale til løsningen er i drift.
       </p>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
         {PEOPLE.map((person) => (
           <Card key={person.name} className="p-[clamp(2rem,3.8vw,3rem)]">
+            <Image
+              src={person.photo}
+              alt=""
+              width={88}
+              height={88}
+              sizes="88px"
+              className="mb-6 size-22 rounded-full object-cover"
+            />
             <h3 className="mb-[0.4rem] text-[1.4rem] font-semibold">
               {person.name}
             </h3>
@@ -86,7 +100,7 @@ export function Hvem() {
         </h3>
         <p className="mb-6 max-w-[58ch] text-base">
           Vi lærer plattformene ved å sende egne apper gjennom dem. Alle fem
-          ligger ute i App Store, bygget fra bunnen av oss to.
+          ligger ute på App Store, bygget fra bunnen av oss to.
         </p>
         <ul className="m-0 grid list-none grid-cols-1 gap-x-10 gap-y-3 p-0 sm:grid-cols-2">
           {APPS.map((app) => (

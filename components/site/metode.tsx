@@ -4,7 +4,7 @@ const STEPS = [
   {
     num: "01",
     title: "Avklaring",
-    body: "Vi begynner med en samtale om hva som faktisk skal løses, og hva løsningen skal gjøre den dagen den er i bruk. Dere får et skriftlig forslag med omfang, fast pris og tidsplan — før vi skriver en eneste linje kode.",
+    body: "Vi begynner med en samtale om hva som faktisk skal løses, og hva løsningen skal gjøre den dagen den er i bruk. Dere får et skriftlig forslag med omfang, fast pris og tidsplan før vi skriver en eneste linje kode.",
   },
   {
     num: "02",
@@ -14,7 +14,7 @@ const STEPS = [
   {
     num: "03",
     title: "Overlevering",
-    body: "Løsningen settes i produksjon på deres egne kontoer, med dokumentasjon og opplæring for dem som skal bruke og forvalte den. Vi drifter gjerne videre — men dere skal aldri være avhengige av at vi gjør det.",
+    body: "Løsningen settes i produksjon på deres egne kontoer, med dokumentasjon og opplæring for dem som skal bruke og forvalte den. Vi drifter gjerne videre, men dere skal aldri være avhengige av at vi gjør det.",
   },
 ];
 

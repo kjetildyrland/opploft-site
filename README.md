@@ -99,7 +99,7 @@ Kjetil Dyrland (Oslo) og Satheshkumar Kaliyugarasan (Bergen). Tjenestene er
 utvikling av nettsider/apper/systemer, KI-løsninger og drift — fast pris per
 prosjekt, fast månedspris på drift.
 
-Siden lenker til fem apper i App Store som er bygget internt: Hyttefred
+Siden lenker til fem apper på App Store som er bygget internt: Hyttefred
 (`id6792740405`), Taleark (`id6794867329`), Glimt (`id6790474917`), Ubrutt
 (`id6797823020`) og Mosvold (`id6751717575`). Ingen påstander om
 kundereferanser — apper er merket som våre egne.
