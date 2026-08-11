@@ -92,7 +92,9 @@ er selv-hostet, så den publiserte siden gjør ingen eksterne forespørsler.
 
 ## Fakta som brukes på siden
 
-Oppløft AS (under stiftelse), Bergen og Oslo, kontakt@opploft.no. To ansatte:
+Oppløft AS (under stiftelse), Bergen og Oslo. Kontaktadresse er midlertidig
+kjetil@dyrland.ai — opploft.no er ikke registrert ennå, så kontakt@opploft.no
+er ikke i bruk. Adressen står bare i `lib/site.ts`. To ansatte:
 Kjetil Dyrland (Oslo) og Satheshkumar Kaliyugarasan (Bergen). Tjenestene er
 utvikling av nettsider/apper/systemer, KI-løsninger og drift — fast pris per
 prosjekt, fast månedspris på drift.

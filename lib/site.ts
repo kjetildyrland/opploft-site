@@ -1,5 +1,6 @@
 /** Delt kontaktinfo, slik at e-postadressen bare står ett sted. */
-export const EMAIL = "kontakt@opploft.no";
+/* Midlertidig adresse: opploft.no er ikke registrert ennå. */
+export const EMAIL = "kjetil@dyrland.ai";
 
 export const MAILTO = `mailto:${EMAIL}?subject=${encodeURIComponent(
   "Forespørsel om utvikling",
