@@ -4,8 +4,8 @@ import { Section } from "@/components/site/section";
 const SERVICES = [
   {
     title: "Nettsider og apper",
-    body: "Nettsider, nettbutikker, iOS- og Android-apper og interne systemer. Vi tar hele veien fra skisse til publisering, enten det er på deres eget domene, på App Store eller i Google Play.",
-    price: "Fast pris per prosjekt. Be om tilbud.",
+    body: "Nettsider, nettbutikker, iOS- og Android-apper og interne systemer. Vi tar hele veien fra skisse til publisering, enten det er på deres eget domene, på App Store eller i Google Play. Trenger dere bare en nettside? Vi bygger, drifter og vedlikeholder den for en fast lav månedspris.",
+    price: "Nettside: 299 kr/mnd (eks. mva). Apper og systemer: fast pris per prosjekt.",
   },
   {
     title: "KI-løsninger",
