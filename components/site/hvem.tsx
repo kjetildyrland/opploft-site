@@ -12,7 +12,7 @@ const PEOPLE = [
     place: "Oslo",
     photo: kjetilPhoto,
     body: "M.Sc. i programvareutvikling og maskinlæring fra HVL og UiB, og Databricks-sertifisert data engineer. Har bygget datainfrastruktur og ML-pipelines i Databricks på Azure for Lerøy Seafood, og jobbet som konsulent i Bouvet på blant annet Equinor-prosjekter. Medforfatter på to fagartikler om evaluering av maskinlæringsmodeller, og utvikler bak fem apper på App Store.",
-    link: { href: "https://kjetildyrland.github.io", label: "kjetildyrland.github.io" },
+    link: { href: "https://dyrland.ai/kjetil", label: "dyrland.ai/kjetil" },
   },
   {
     name: "Satheshkumar Kaliyugarasan",
