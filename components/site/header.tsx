@@ -11,14 +11,12 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-
-const MAILTO =
-  "mailto:kontakt@opploft.no?subject=Gratis%20flaskehals-gjennomgang";
+import { MAILTO } from "@/lib/site";
 
 const NAV_LINKS = [
-  { href: "#metode", label: "Metode" },
   { href: "#tjenester", label: "Tjenester" },
-  { href: "#hvem", label: "Hvem" },
+  { href: "#metode", label: "Slik jobber vi" },
+  { href: "#hvem", label: "Hvem vi er" },
   { href: "#kontakt", label: "Kontakt" },
 ];
 
@@ -52,7 +50,7 @@ export function Header() {
             ))}
           </ul>
           <Button asChild size="nav">
-            <a href={MAILTO}>Gratis gjennomgang</a>
+            <a href={MAILTO}>Ta kontakt</a>
           </Button>
         </div>
 
@@ -98,7 +96,7 @@ export function Header() {
               </ul>
               <div className="p-5">
                 <Button asChild size="xl" className="w-full">
-                  <a href={MAILTO}>Gratis gjennomgang</a>
+                  <a href={MAILTO}>Ta kontakt</a>
                 </Button>
               </div>
             </SheetContent>

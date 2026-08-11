@@ -1,12 +1,10 @@
 import { Header } from "@/components/site/header";
 import { Hero } from "@/components/site/hero";
+import { Tjenester } from "@/components/site/tjenester";
 import { Metode } from "@/components/site/metode";
 import { Prinsipp } from "@/components/site/prinsipp";
-import { Suverenitet } from "@/components/site/suverenitet";
-import { Tjenester } from "@/components/site/tjenester";
 import { Hvem } from "@/components/site/hvem";
-import { HvorforNaa } from "@/components/site/hvorfor-naa";
-import { Pilot } from "@/components/site/pilot";
+import { Kontakt } from "@/components/site/kontakt";
 import { Footer } from "@/components/site/footer";
 
 export default function Home() {
@@ -19,13 +17,11 @@ export default function Home() {
       <main id="hovedinnhold">
         <span id="top" />
         <Hero />
+        <Tjenester />
         <Metode />
         <Prinsipp />
-        <Suverenitet />
-        <Tjenester />
         <Hvem />
-        <HvorforNaa />
-        <Pilot />
+        <Kontakt />
       </main>
       <Footer />
     </>

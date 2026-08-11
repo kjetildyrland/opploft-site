@@ -78,8 +78,9 @@ app/
   icon.svg          Favicon
 components/
   ui/               shadcn/ui-komponenter (Button, Card, Separator, Sheet)
-  site/             Seksjonene: Header, Hero, Metode, Suverenitet, Tjenester,
-                    Hvem, HvorforNaa, Pilot, Footer, samt Section/Container
+  site/             Seksjonene: Header, Hero, Tjenester, Metode, Prinsipp,
+                    Hvem, Kontakt, Footer, samt Section/Container
+lib/site.ts         Delt kontaktinfo (EMAIL, MAILTO)
 lib/utils.ts        cn()-hjelper (clsx + tailwind-merge)
 next.config.ts      output: "export", images.unoptimized
 ```
@@ -91,7 +92,12 @@ er selv-hostet, så den publiserte siden gjør ingen eksterne forespørsler.
 
 ## Fakta som brukes på siden
 
-Oppløft AS (under stiftelse), Bergen og Oslo, kontakt@opploft.no. Tar inn tre
-pilotkunder høsten 2026. Eneste statistikk på siden: «77 % av virksomhetene
-som ikke bruker KI oppgir manglende kompetanse som viktigste barriere»
-(kilde: SSB, Bruk av IKT i næringslivet, 2025).
+Oppløft AS (under stiftelse), Bergen og Oslo, kontakt@opploft.no. To ansatte:
+Kjetil Dyrland (Oslo) og Satheshkumar Kaliyugarasan (Bergen). Tjenestene er
+utvikling av nettsider/apper/systemer, KI-løsninger og drift — fast pris per
+prosjekt, fast månedspris på drift.
+
+Siden lenker til fem apper i App Store som er bygget internt: Hyttefred
+(`id6792740405`), Taleark (`id6794867329`), Glimt (`id6790474917`), Ubrutt
+(`id6797823020`) og Mosvold (`id6751717575`). Ingen påstander om
+kundereferanser — apper er merket som våre egne.

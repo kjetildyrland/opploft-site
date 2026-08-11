@@ -3,19 +3,19 @@ import { Section } from "@/components/site/section";
 
 const SERVICES = [
   {
-    title: "Flaskehalsanalyse",
-    body: "Vi kartlegger hvor tiden går på ti virkedager: et skreddersydd spørreskjema bygget på offentlig informasjon om bransjen deres, og observerte arbeidsøkter der vi tar tiden på ekte oppgaver. Dere sitter igjen med en rangert liste over flaskehalser med kroneestimat.",
-    price: "Fast pris. Be om tilbud.",
+    title: "Nettsider og apper",
+    body: "Nettsider, nettbutikker, iOS- og Android-apper og interne systemer. Vi tar hele veien fra skisse til publisering — på deres eget domene, i App Store eller i Google Play.",
+    price: "Fast pris per prosjekt. Be om tilbud.",
   },
   {
-    title: "KI-sprint",
-    body: "Vi bygger og setter én løsning i produksjon på den største flaskehalsen, i verktøyene og på kontoene dere allerede har. Med opplæring, dokumentasjon og et testsett som beviser at løsningen virker.",
-    price: "Fast pris per sprint. Be om tilbud.",
+    title: "KI-løsninger",
+    body: "Automatisering av det som i dag gjøres for hånd: dokumenter som skal skrives, data som skal hentes ut, spørsmål som skal besvares. Vi bygger det inn i verktøyene dere allerede bruker, med et testsett som viser at det virker.",
+    price: "Fast pris per prosjekt. Be om tilbud.",
   },
   {
-    title: "KI-ansvarlig",
-    body: "En fast KI-ansvarlig uten fast ansettelse. Løsningene overvåkes og testes ukentlig, og hver måned setter vi av tid til veikart, nye grep og oppdatering av biblioteket deres.",
-    price: "Løpende. Fast pris. Be om tilbud.",
+    title: "Drift og videreutvikling",
+    body: "Når løsningen er i produksjon holder vi den i gang: oppdateringer, overvåking, nye funksjoner — og en fast kontaktperson som kjenner koden fra innsiden.",
+    price: "Fast månedspris. Be om tilbud.",
   },
 ];
 
@@ -24,7 +24,7 @@ export function Tjenester() {
     <Section id="tjenester" aria-labelledby="tjenester-title">
       <p className="overline">Tjenester</p>
       <h2 id="tjenester-title" className="section-title">
-        Tre trinn, fast pris
+        Tre måter å jobbe med oss
       </h2>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
         {SERVICES.map((service) => (

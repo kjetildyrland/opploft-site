@@ -1,4 +1,5 @@
 import { Container } from "@/components/site/section";
+import { EMAIL } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -6,8 +7,8 @@ export function Footer() {
       <Container>
         <p className="mb-2 text-[0.95rem]">
           Oppløft AS (under stiftelse) · Bergen &amp; Oslo · hele Norge som arbeidsfelt ·{" "}
-          <a href="mailto:kontakt@opploft.no" className="text-primary">
-            kontakt@opploft.no
+          <a href={`mailto:${EMAIL}`} className="text-primary">
+            {EMAIL}
           </a>{" "}
           · © 2026 Oppløft
         </p>

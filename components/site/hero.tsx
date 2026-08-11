@@ -1,20 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/site/section";
-
-const MAILTO =
-  "mailto:kontakt@opploft.no?subject=Gratis%20flaskehals-gjennomgang";
+import { MAILTO } from "@/lib/site";
 
 export function Hero() {
   return (
     <section aria-labelledby="hero-title">
       <Container className="py-[clamp(4rem,9vw,7.5rem)]">
         <p className="overline">
-          KI-rådgivning for norske virksomheter · i hele landet
+          Utvikling av nettsider, apper og systemer · Bergen &amp; Oslo
         </p>
-        <h1 id="hero-title" className="display-title max-w-[16ch]">
-          Vi finner flaskehalsene.
-          <br />
-          KI fjerner dem.
+        <h1 id="hero-title" className="display-title max-w-[18ch]">
+          Vi bygger nettsider, apper og systemer.
         </h1>
         <svg
           className="mt-6 mb-8 block opacity-75"
@@ -36,17 +32,17 @@ export function Hero() {
           />
         </svg>
         <p className="m-0 mb-9 max-w-[60ch] text-[length:var(--fs-lead-hero)] leading-[1.55]">
-          Oppløft hjelper norske virksomheter å finne flaskehalsene i
-          arbeidshverdagen, løse dem med KI i verktøyene dere allerede har — og
-          lære teamet å eie løsningen selv. Uten at dataene deres noen gang
-          forlater virksomheten.
+          Oppløft er et lite utviklingsselskap i Bergen og Oslo. Vi tar oppdrag
+          fra første skisse til ferdig løsning i drift — nettsider, mobilapper,
+          interne systemer, og KI der det faktisk gir gevinst. To utviklere,
+          fast pris, og kode dere eier selv.
         </p>
         <div className="flex flex-wrap gap-4">
           <Button asChild size="xl" className="max-sm:w-full">
-            <a href={MAILTO}>Gratis gjennomgang</a>
+            <a href={MAILTO}>Ta kontakt</a>
           </Button>
           <Button asChild variant="brandGhost" size="xl" className="max-sm:w-full">
-            <a href="#metode">Se metoden</a>
+            <a href="#tjenester">Se hva vi gjør</a>
           </Button>
         </div>
       </Container>

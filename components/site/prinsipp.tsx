@@ -1,20 +1,21 @@
 import { Container } from "@/components/site/section";
 
 /**
- * Slim, borderless statement between Metode and Suverenitet. No cards, no
- * dividers — just a quiet typographic statement with generous whitespace.
+ * Slim, borderless statement between Metode and Hvem. No cards, no dividers —
+ * just a quiet typographic statement with generous whitespace.
  */
 export function Prinsipp() {
   return (
     <section id="prinsipp" className="py-[var(--pad-y)]">
       <Container>
         <p className="overline">Prinsipp</p>
-        <h2 className="section-title">Alltid de beste verktøyene</h2>
+        <h2 className="section-title">Dere eier alt vi lager</h2>
         <p className="max-w-[62ch] text-[length:var(--fs-lead)]">
-          KI-feltet flytter seg hver måned — det gjør vi også. Vi er
-          leverandørnøytrale, følger utviklingen tett og bygger på det som er
-          best akkurat nå. Når noe bedre kommer, oppdaterer vi løsningene deres.
-          Det er en del av jobben, ikke et tillegg.
+          Koden, kontoene, domenene og dokumentasjonen står i deres navn fra dag
+          én. Vi bygger på vanlige, godt kjente verktøy framfor våre egne
+          rammeverk, slik at en hvilken som helst utvikler kan ta over etter
+          oss. Ingen innlåsing, ingen skjulte avhengigheter — dere skal kunne
+          bytte leverandør uten å begynne på nytt.
         </p>
       </Container>
     </section>

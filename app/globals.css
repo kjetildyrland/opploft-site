@@ -48,7 +48,6 @@
   --accent-green: #0e4b3b;
   --accent-green-dark: #113f34; /* softer primary hover */
   --alt: #ebeee7; /* soft sage alternate section background */
-  --stat-panel: #e7ede6; /* pale green tint behind the 77 % figure */
   --hairline: rgba(35, 40, 36, 0.12);
   --card-shadow: 0 1px 2px rgba(35, 40, 36, 0.04); /* whisper lift on cards */
 
@@ -87,7 +86,6 @@
   --fs-lead-hero: clamp(1.15rem, 0.95rem + 0.6vw, 1.4rem);
   --fs-lead: clamp(1.1rem, 0.95rem + 0.5vw, 1.3rem);
   --fs-lead-strong: clamp(1.15rem, 0.95rem + 0.5vw, 1.35rem);
-  --fs-stat-body: clamp(1.2rem, 0.95rem + 0.7vw, 1.6rem);
 }
 
 @layer base {
@@ -177,15 +175,6 @@
     letter-spacing: -0.03em;
     color: transparent;
     -webkit-text-stroke: 1.25px rgba(14, 75, 59, 0.55);
-  }
-
-  .stat-figure {
-    margin: 0;
-    font-size: clamp(4.5rem, 14vw, 9rem);
-    font-weight: 600;
-    letter-spacing: -0.04em;
-    line-height: 0.9;
-    color: var(--accent-green);
   }
 
   /* Skip link: off-screen until focused. */

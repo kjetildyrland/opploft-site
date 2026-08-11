@@ -3,27 +3,27 @@ import { Section } from "@/components/site/section";
 const STEPS = [
   {
     num: "01",
-    title: "Flaskehalsanalyse",
-    body: "På ti virkedager kartlegger vi hvor tiden faktisk går: et skreddersydd spørreskjema bygget på offentlig informasjon om deres bransje, og observerte arbeidsøkter der vi tar tiden på ekte oppgaver. Dere får en rangert liste over flaskehalser med kroneestimat — ikke en presentasjon, men en arbeidsliste.",
+    title: "Avklaring",
+    body: "Vi begynner med en samtale om hva som faktisk skal løses, og hva løsningen skal gjøre den dagen den er i bruk. Dere får et skriftlig forslag med omfang, fast pris og tidsplan — før vi skriver en eneste linje kode.",
   },
   {
     num: "02",
-    title: "KI-sprint",
-    body: "Vi bygger løsningen på den største flaskehalsen, i deres egne verktøy og på deres egne kontoer. Leveransen inkluderer opplæring, dokumentasjon og et testsett som beviser at løsningen virker — før vi går videre til neste.",
+    title: "Bygging",
+    body: "Vi bygger i korte etapper og viser fram noe som virker underveis, ikke bare til slutt. Dere kan justere kurs mens det ennå er billig å justere. Alt vi lager blir testet, og testene følger med i leveransen.",
   },
   {
     num: "03",
-    title: "Vakt",
-    body: "Løsningene tester seg selv hver uke. Endrer KI-modellene seg, fanger vi det før dere merker det, og foreslår fiksen. Dere godkjenner — vi rører aldri systemene deres uten at et menneske har sagt ja.",
+    title: "Overlevering",
+    body: "Løsningen settes i produksjon på deres egne kontoer, med dokumentasjon og opplæring for dem som skal bruke og forvalte den. Vi drifter gjerne videre — men dere skal aldri være avhengige av at vi gjør det.",
   },
 ];
 
 export function Metode() {
   return (
-    <Section id="metode" aria-labelledby="metode-title">
+    <Section alt id="metode" aria-labelledby="metode-title">
       <p className="overline">Slik jobber vi</p>
       <h2 id="metode-title" className="section-title">
-        Fra flaskehals til løsning dere eier
+        Fra første samtale til noe som er i drift
       </h2>
       <ol className="m-0 list-none p-0">
         {STEPS.map((step) => (
